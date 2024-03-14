@@ -36,6 +36,13 @@
     @apply opacity-100 bg-[blueviolet];
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999; /* Ensure it stays on top */
+}
+
 /* @layer components {
     .swiper-button-prev,
     .swiper-button-next {
